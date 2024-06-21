@@ -40,7 +40,7 @@ const Slider = React.forwardRef(function Slider(
             "bg-slate-100 dark:bg-slate-700 h-2 w-full rounded-full block absolute"
         },
         track: {
-          className: "bg-cyan-500 dark:bg-green-400 h-2 absolute rounded-full"
+          className: "bg-cyan-500 dark:bg-green-400 h-2 absolute rounded-full shadow-xl" 
         }
       }}
     />

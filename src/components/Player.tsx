@@ -20,8 +20,9 @@ const Player = React.forwardRef(function Player(
             alt=""
             width="88"
             height="88"
-            className="flex-none rounded-lg bg-slate-100"
+            className="flex-none rounded-lg bg-slate-100 shadow-xl"
             loading="lazy"
+
           />
           <div className="min-w-0 flex-auto space-y-1 font-semibold">
             <p className="text-cyan-500 dark:text-cyan-400 text-sm leading-6">

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Player from './Player.tsx';
+import Player from './components/Player.tsx';
 
 function App() {
   return <Player />;
