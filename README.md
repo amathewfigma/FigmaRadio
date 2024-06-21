@@ -1,4 +1,6 @@
-# Base UI - Vite.js example with Tailwind CSS in TypeScript
+# Figma Radio App
+
+Stack/Pre-reqs:
 
 [Base UI](https://mui.com/base-ui/) is a library of unstyled React UI components and hooks.
 
@@ -6,28 +8,35 @@
 
 [Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework that provides low-level CSS classes that can be composed to build custom UI designs.
 
-## How to use
+[Storybook] Storybook is a development environment tool that is used as a playground for UI components
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+# How to use repo
 
-<!-- #default-branch-switch -->
+You can download this repo to your local machine using git clone
 
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/next | tar -xz --strip=2 material-ui-next/examples/base-ui-vite-tailwind-ts
-cd base-ui-vite-tailwind-ts
-```
+Once you have downloaded this you will need to cd into /FigmaRadioApp
 
-Install it and run:
+Since this application is leveraging React you will need to install the below dependenceis to make sure everything is work as expected
 
-```bash
-npm install
-npm start
-```
+# MUI
 
-or:
+Run the below to generate all the MUI react components:
+npm install @mui/material @emotion/react @emotion/styled
 
-<!-- #default-branch-switch -->
+# Tailwind
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/next/examples/base-ui-vite-tailwind-ts)
+Tailwind should be good but feel free to run the below 
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/next/master/examples/base-ui-vite-tailwind-ts)
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+# Storybook
+
+Run the below to make sure Storybook is initialized in the repo and the dependencies are installed
+
+npx storybook@latest init
+
+Once you install all the dependencies you can run the application locally using:
+
+npm run dev
