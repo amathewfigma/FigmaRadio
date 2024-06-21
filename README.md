@@ -1,5 +1,8 @@
 # Figma Radio App
 
+<img width="597" alt="image" src="https://github.com/amathewfigma/FigmaRadio/assets/144811756/588b8a44-a245-40cf-ae77-d254f38554f0">
+
+
 Stack/Pre-reqs:
 
 [Base UI](https://mui.com/base-ui/) is a library of unstyled React UI components and hooks.
