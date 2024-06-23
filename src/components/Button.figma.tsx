@@ -1,5 +1,5 @@
 import React from "react"
-import { Button } from "./Button"
+import { Button } from "@mui/base"
 import figma from "@figma/code-connect"
 
 /**
@@ -12,7 +12,7 @@ import figma from "@figma/code-connect"
 
 figma.connect(
   Button,
-  "https://www.figma.com/design/RLEekW5RcKzmNUMm6ihcDb/Material-UI-for-Figma-(and-MUI-X)-(Community)?node-id=6465-8337&m=dev",
+  "https://www.figma.com/design/NUjy4PvikhRDfeKSSEZp6C/MUI-Code-Connect-w%2F-React-%26-Storybook?node-id=6465-8337&m=dev",
   {
     props: {
       loadingEnd: figma.boolean("↳ Loading End"),
