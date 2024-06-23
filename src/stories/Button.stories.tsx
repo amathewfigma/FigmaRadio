@@ -2,6 +2,7 @@
 import React from 'react';
 import {Meta} from '@storybook/react'
 import Button from '../components/Button';
+import { Label } from '@mui/icons-material';
 
 
 export default {
@@ -21,7 +22,7 @@ export default {
 
 
 export function ButtonExample() {
-    return <Button onClick={() => {}}> Button Label </Button>;
+    return <Button onClick ={onClick}></Button>;
        
   }
 
